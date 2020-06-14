@@ -1,0 +1,45 @@
+#form {
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+
+  #no-results {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .title-div {
+    margin-bottom: 30px;
+  }
+
+  .card-header {
+    background-color: rgb(45, 133, 133);
+    color: white;
+  }
+
+  .card-body {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+
+.image-description-div {
+  padding: 10px;
+}
+
+.title-div {
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title-div .title {
+  font-size: 2rem;
+}
+
+.title-div .author {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  min-height: 50px;
+}
