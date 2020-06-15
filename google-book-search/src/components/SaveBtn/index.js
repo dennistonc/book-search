@@ -4,7 +4,7 @@ import "./style.css";
 
 function SaveBtn(props) {
   return (
-    <button className="save-btn"><span {...props} role="button" tabIndex="0">
+    <button type="button" className="btn save-btn"><span {...props} role="button" tabIndex="0">
       Save Book
     </span></button>
   );

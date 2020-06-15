@@ -1,0 +1,11 @@
+.view-btn {
+    background-color: #a5ac82;
+    color: #ffffff;
+    border-style: none;
+}
+
+.view-btn:hover {
+    background-color: #737b4d;
+    color: #ffffff;
+    border-style: none;
+}

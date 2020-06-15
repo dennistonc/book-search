@@ -1,0 +1,14 @@
+.jumbotron {
+    background-image: url("/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#jumboTitle {
+    font-family: 'Patua One', cursive;
+}
+
+#jumboSubtitle {
+    font-family: 'Patua One', cursive;
+}

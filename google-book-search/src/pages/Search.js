@@ -43,7 +43,7 @@ class Search extends Component {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         authors: book.volumeInfo.authors,
-        image: book.volumeInfo.imageLinks.smallThumbnail,
+        image: book.volumeInfo.imageLinks.thumbnail,
         link: book.volumeInfo.infoLink,
       };
     } else {
@@ -70,10 +70,9 @@ class Search extends Component {
               value={this.state.title}
               onChange={this.handleInputChange}
               name="title"
-              placeholder="Search for Books"
+              placeholder="Search for a Book"
             />
             <FormBtn
-              // disabled={!(this.state.author && this.state.title)}
               onClick={this.handleFormSubmit}
             >
               Submit
@@ -106,10 +105,10 @@ class Search extends Component {
 
                     <div className="card mb-3 image-description-div">
                       <div className="row no-gutters">
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                           {book.volumeInfo.imageLinks ? (
                             <img
-                              src={book.volumeInfo.imageLinks.smallThumbnail}
+                              src={book.volumeInfo.imageLinks.thumbnail}
                               className="card-img"
                               alt={book.volumeInfo.title}
                             />
@@ -121,7 +120,7 @@ class Search extends Component {
                             />
                           )}
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-10">
                           <div className="card-body">
                             <p className="card-text">
                               {book.volumeInfo.description}
@@ -141,7 +140,7 @@ class Search extends Component {
             </div>
           </List>
         ) : (
-          <h3 id="no-results">No Results to Display</h3>
+          <h3 id="no-results">No Results to Display.</h3>
         )}
       </div>
     );

@@ -1,0 +1,13 @@
+.save-btn {
+    margin-left: 10px;
+    background-color: #a8bb4b;
+    color: #ffffff;
+    border-style: none;
+}
+
+.save-btn:hover, .save-btn:active, .save-btn:focus {
+    margin-left: 10px;
+    background-color: #8c9f2e;
+    color: #ffffff;
+    border-style: none;
+}

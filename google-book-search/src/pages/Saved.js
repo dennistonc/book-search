@@ -57,7 +57,7 @@ class Saved extends Component {
 
                     <div className="card mb-3 image-description-div">
                       <div className="row no-gutters">
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                           {book.image ? (
                             <img
                               src={book.image}
@@ -72,7 +72,7 @@ class Saved extends Component {
                             />
                           )}
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-10">
                           <div className="card-body">
                             <p className="card-text">{book.description}</p>
                           </div>
@@ -90,7 +90,7 @@ class Saved extends Component {
             </div>
           </List>
         ) : (
-          <h3>No Saved Books to Display. Please Save a Book.</h3>
+          <h3 id="no-save">No Saved Books to Display. Please Go Back and Save a Book.</h3>
         )}
       </div>
     );

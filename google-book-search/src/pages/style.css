@@ -1,35 +1,36 @@
 #form {
-    margin: 20px;
-    margin-bottom: 80px;
-  }
+  margin: 20px;
+  margin-bottom: 80px;
+}
 
-  #no-results {
-    text-align: center;
-    margin-top: 100px;
-  }
+#no-results {
+  text-align: center;
+  margin-top: 100px;
+}
 
-  .title-div {
-    margin-bottom: 30px;
-  }
+#no-save {
+  text-align: center;
+  margin-top: 100px;
+}
 
-  .card-header {
-    background-color: rgb(45, 133, 133);
-    color: white;
-  }
+.card-header {
+  background-color: #899065;
+  color: white;
+  font-size: 18px;
+}
 
-  .card-body {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  
+.card-body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .image-description-div {
   padding: 10px;
 }
 
 .title-div {
-  padding: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 0px 10px 10px;
+  font-family: 'Patua One', cursive;
 }
 
 .title-div .title {
